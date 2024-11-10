@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(152, 151, 151);
+    font-family: sans-serif;
+    width: 100%;
+    margin: auto;
+
+}
+div {
+    background-color: white;
+    margin: 30px 100px;
+    padding: 20px;
+    border-radius: 10px;
+}
+button{
+    border-radius: 30px;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    border-style: none;
+
+}
+button:hover{
+    cursor: pointer;
+}
+.but1{
+    background-color: rgb(109, 181, 109);
+}
+.but2{
+    background-color: rgb(208, 143, 22);
+    color: black;
+    
+}
+.but3{
+    background-color: rgb(190, 98, 190);
+}

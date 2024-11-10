@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    border-radius: 6px;
+    width: 20%;
+    margin: auto;
+    padding: 0 0 50px;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.logo-img{
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.logo{
+    padding: 1em;
+}
+input{
+    border-radius: 20px;
+    padding: 0.3rem 1.5rem;
+    border-color: beige;
+}
+.profile{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.profile>*{
+    margin-bottom: 5%;
+}
+.profile img{
+    width: 120px;
+    height: 120px;
+    border-radius:50%;
+
+}
+.container-follow table td{
+    width: 100%;
+
+
+}
+
+tr{
+    display: flex;
+   justify-content: center;
+}
+td{
+    padding: 0.3rem;
+    text-align: center;
+
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.contact img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px;
+    
+    
+}
+
+
+.description{
+    padding:  1rem 2rem;
+    text-align: center;
+}
+.click{
+    width: 9rem;
+    display: flex;
+    justify-content:space-between;
+}
+button{
+    background-color: rgb(117, 193, 216);
+    color: white;
+    border: solid 2px white;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 2rem;
+}
+button:hover{
+    cursor: pointer;
+}
